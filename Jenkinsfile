@@ -70,7 +70,7 @@ dockerTemplate{
         pushPomPropertyChangePR {
           propertyName = 'mattermost.version'
           projects = ['fabric8io/fabric8-platform']
-          version = newVersion
+          version = v
           containerName = 'clients'
         }
       }
